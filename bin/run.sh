@@ -1,0 +1,31 @@
+# Written by Sangharatna Godboley
+# This shell script shows the execution sequences for Dy-COPECA (Short-cicuted version). We need to have a c prgoram and set of test input. This tool is useful to check the adequecy of test input generated. This tool provides you the MC/DC report.
+# 1. Firstly, we have to compile "TestDataFileGeneratorGUI.java" by browsing a C program a Test suite which is generated from KLEE or TRACER-X. This Test suite is a collection of all test data in HEXADECIMAL format. This program will convert all data into integer values, and seperate all test inputs. All test inputs are saved in "src/testcases" folder. After that name the folder according to program's name. 
+javac TestDataFileGeneratorGUI.java
+java TestDataFileGeneratorGUI
+# 2. Secondly compile and execute "PreprocessorGUI.java" by browsing a C program, which generates a list of predicates "Predicates.txt" and "Preprocess.c" file which is actually a file that need to run with test inputs consisting of integer values. 
+javac PreprocessorGUI.java
+java PreprocessorGUI
+mv process.c /home/sangha/workspace/NEW_COPECA/src/testcases
+cd testcases
+# 3. One manual modification need to perform is before executing "Preprocess.c" file. See if any function is called or decalared in program. In function declaration add "FILE *wtfinfile" and in call supply "wtfinfile". This will create Raw version of Extended Truth Table without don't care.
+gcc process.c
+./a.out
+# 4. Supply the Raw ETT file into "non_DC_to_DC.java" file to generate "With_DC_truthTable_fileGeneration.java". 
+mv ETTRAW_non_DC.txt /home/sangha/workspace/NEW_COPECA/src
+cd ..
+javac non_DC_to_DC_multiple.java
+java non_DC_to_DC_multiple
+# 5. "With_DC_truthTable_fileGeneration.java" file will generate RAW ETT with don't care truth values. Complile and run this java file to generate "With_DC_truthTable.txt".
+#javac With_DC_truthTable_fileGeneration.java
+#java With_DC_truthTable_fileGeneration
+i=1;
+for file in ~/workspace/NEW_COPECA/src/With_DC_truthTable_fileGeneration****.java; do 
+javac With_DC_truthTable_fileGeneration$i.java;
+java With_DC_truthTable_fileGeneration$i;
+echo $i
+((i=i+1)); 
+done
+# 6. Execute "ExtendedTruthTableGUI.java" file to finally generate MC/DC report. It requires to supply "Predicates.txt" and "With_DC_truthTable.txt". It will provide "MCDC_report.txt".
+javac ExtendedTruthTableGUI.java
+java ExtendedTruthTableGUI

@@ -1,0 +1,80 @@
+Test Case File Number is:1
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Predicate 2:((i+j <= k) || (j+k <= i) || (i+k <= j))
+0,0,0,0
+Test Case File Number is:2
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Predicate 2:((i+j <= k) || (j+k <= i) || (i+k <= j))
+0,0,1,1
+Test Case File Number is:3
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Predicate 2:((i+j <= k) || (j+k <= i) || (i+k <= j))
+0,1,X,1
+Test Case File Number is:4
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Predicate 2:((i+j <= k) || (j+k <= i) || (i+k <= j))
+1,X,X,1
+Test Case File Number is:5
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Predicate 3:((trityp == 1) && (i+j > k))
+0,X,0
+Predicate 4:((trityp == 2) && (i+k > j))
+0,X,0
+Predicate 5:((trityp == 3) && (j+k > i))
+1,0,0
+Test Case File Number is:6
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Predicate 3:((trityp == 1) && (i+j > k))
+0,X,0
+Predicate 4:((trityp == 2) && (i+k > j))
+0,X,0
+Predicate 5:((trityp == 3) && (j+k > i))
+1,1,1
+Test Case File Number is:7
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Predicate 3:((trityp == 1) && (i+j > k))
+0,X,0
+Predicate 4:((trityp == 2) && (i+k > j))
+1,0,0
+Predicate 5:((trityp == 3) && (j+k > i))
+0,X,0
+Test Case File Number is:8
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Predicate 3:((trityp == 1) && (i+j > k))
+0,X,0
+Predicate 4:((trityp == 2) && (i+k > j))
+1,1,1
+Test Case File Number is:9
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Predicate 3:((trityp == 1) && (i+j > k))
+1,0,0
+Predicate 4:((trityp == 2) && (i+k > j))
+0,X,0
+Predicate 5:((trityp == 3) && (j+k > i))
+0,X,0
+Test Case File Number is:10
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Predicate 3:((trityp == 1) && (i+j > k))
+1,1,1
+Test Case File Number is:11
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,0,0
+Test Case File Number is:12
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,0,1,1
+Test Case File Number is:13
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+0,1,X,1
+Test Case File Number is:14
+Predicate 1:((i == 0) || (j == 0) || (k == 0))
+1,X,X,1

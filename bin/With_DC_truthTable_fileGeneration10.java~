@@ -1,0 +1,49 @@
+package sjg_project;
+
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+/**
+ *
+ * @author user
+ */
+public class With_DC_truthTable_fileGeneration1999 {
+    public static void main(String args[]) throws FileNotFoundException, IOException{
+    PrintWriter out_truthTable=new PrintWriter(new BufferedWriter(new FileWriter("With_DC_truthTable.txt",true)));
+    boolean array[]=new boolean[100];
+    int t[]=new int[100];
+    boolean exper_val=false;
+ out_truthTable.println("Predicate 3:((trityp == 1) && (i+j > k))");
+t[0]=0;
+t[1]=1;
+array[0]=false;
+array[1]=true;
+ exper_val=(((array[t[0]++])&&(array[t[1]++])));
+for(int i=0;i<2;i++){
+    if(t[i]!=i){
+        if(array[i]){
+        out_truthTable.print("1,");
+        }
+        else{
+        out_truthTable.print("0,");
+        }
+    }
+    else{
+        out_truthTable.print("X,");
+            }
+    }
+    {
+        if(exper_val){
+        out_truthTable.println("1");
+        }
+        else{
+        out_truthTable.println("0");
+        }            }
+out_truthTable.flush();
+    }
+    
+}
+

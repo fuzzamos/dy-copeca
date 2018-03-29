@@ -1,0 +1,1283 @@
+ 
+Test Case File Number is:1
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,0,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:2
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:3
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:4
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:5
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:6
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:7
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:8
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,0,X,1,0
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:9
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,0,0,1
+Test Case File Number is:10
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:11
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:12
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,0,0,1
+Test Case File Number is:13
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:14
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:15
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:16
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:17
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:18
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:19
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:20
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:21
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:22
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:23
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:24
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:25
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+0,X,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+1,0,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:26
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,1,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:27
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:28
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:29
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,1,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:30
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,1,1
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,0,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+1,0,0
+Test Case File Number is:31
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,1,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:32
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+1,1,0,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+0,X,X,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:33
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:34
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+0,X,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+1,0,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:35
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+0,X,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+1,0,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:36
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+1,1,1,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+0,X,X,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,1,1
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Predicate 11:( Up_Separation >= alim && Down_Separation < alim )
+1,0,0
+Predicate 12:( Up_Separation >= alim && Down_Separation < alim )
+1,0,0
+Test Case File Number is:37
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+1,1,0,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+0,X,X,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:38
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+1,1,0,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+0,X,X,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:39
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+0,X,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+1,0,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:40
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:41
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:42
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,1,1
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,0,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+1,0,0
+Test Case File Number is:43
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:44
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:45
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:46
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:47
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:48
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:49
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:50
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:51
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:52
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:53
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:54
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:55
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,0,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:56
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:57
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+0,X,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+1,0,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:58
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,1,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:59
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:60
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:61
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,1,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:62
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,1,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:63
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,1,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:64
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+1,1,0,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+0,X,X,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:65
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+0,X,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+1,0,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:66
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,0,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:67
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+1,1,1,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+0,X,X,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,1,1
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Predicate 11:( Up_Separation >= alim && Down_Separation < alim )
+1,0,0
+Predicate 12:( Up_Separation >= alim && Down_Separation < alim )
+1,0,0
+Test Case File Number is:68
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+1,1,0,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+0,X,X,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:69
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+0,X,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+1,0,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:70
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+1,1,1,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+0,X,X,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,1,1
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Predicate 11:( Up_Separation >= alim && Down_Separation < alim )
+1,0,0
+Predicate 12:( Up_Separation >= alim && Down_Separation < alim )
+1,0,0
+Test Case File Number is:71
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:72
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:73
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:74
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+1,1,1,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+0,X,X,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,1,1
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Predicate 11:( Up_Separation >= alim && Down_Separation < alim )
+1,0,0
+Predicate 12:( Up_Separation >= alim && Down_Separation < alim )
+1,0,0
+Test Case File Number is:75
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+0,X,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,1,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,0,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:76
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:77
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:78
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+0,X,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:79
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,1,1
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,0,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+1,0,0
+Test Case File Number is:80
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+0,X,X,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,1,1
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+1,1,0,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+1,0,0
+Test Case File Number is:81
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:82
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 5:( (temp13 !=0 )  &&  (Cur_Vertical_Sep >= 300) && (Up_Separation >= alim_Non_Crossing_Biased_Climb) )
+1,1,1,1
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 8:( !(temp23 !=0 ) || ((temp23 !=0 ) && (Up_Separation >= alim_Non_Crossing_Biased_Descend)))
+0,X,X,1
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+1,1,1
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Predicate 11:( Up_Separation >= alim && Down_Separation < alim )
+1,0,0
+Predicate 12:( Up_Separation >= alim && Down_Separation < alim )
+1,0,0
+Test Case File Number is:83
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,1,1
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,1,X,1
+Predicate 4:( !(temp12 !=0 ) || ((temp12 !=0 )&& (!(Down_Separation >= alim_Non_Crossing_Biased_Climb))) )
+1,0,X,0
+Predicate 6:( (temp1 !=0) && (temp2 !=0 ) )
+1,0,0
+Predicate 7:((temp22 !=0 ) &&  (Cur_Vertical_Sep >= 300) && (Down_Separation >= alim_Non_Crossing_Biased_Descend) )
+0,X,X,0
+Predicate 9:( (temp3 !=0 ) && (temp4 !=0 ) )
+0,X,0
+Predicate 10:((need_upward_RA !=0) && (need_downward_RA !=0 ))
+0,X,0
+Test Case File Number is:84
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,1,1,1
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+1,0,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+1,1,0,0,1
+Test Case File Number is:85
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,0,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0
+Test Case File Number is:86
+Predicate 1:( (High_Confidence !=0) && (Own_Tracked_Alt_Rate <= 600) && (Cur_Vertical_Sep > 600) )
+1,0,X,0
+Predicate 2:( (Two_of_Three_Reports_Valid !=0 ) && Other_RAC == 0 )
+0,X,0
+Predicate 3:((enabled !=0)&& (((tcas_equipped !=0)&& (intent_not_known !=0))  || ! (tcas_equipped !=0)))
+0,X,X,X,0

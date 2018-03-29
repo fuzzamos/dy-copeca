@@ -1,0 +1,153 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<stdio.h>
+#ifdef LLBMC
+#include <llbmc.h>
+#else
+//#include <klee/klee.h>
+#endif
+#include<stdlib.h>
+#include<math.h>
+#include<string.h>
+#include<pthread.h>
+#include<unistd.h>
+
+# define PRINT_DEBUG 1
+
+int vflag;
+
+int vflag_copy;
+int vflag_file;
+int idx, sink;
+double dsink;
+void *psink;
+
+int rand (void);
+
+void conflicting_cond_001 ()
+{
+	int a;
+	int b = 0;
+	int ret;
+//------------for reading values
+	char itfbuff1[255]; 
+	fscanf(itf, "%s", itfbuff1);
+	a=atoi(itfbuff1);
+	
+//------------Adding statements for printing-----------
+{fprintf(wtfinfile,"%s","Predicate 1:((a == 0) || (a == 1))\n");
+fprintf(wtfinfile,"%d,%d,%d\n",(a == 0 ),( a == 1),((a == 0) || (a == 1)));}
+//----------------------------------------------------
+	if ((a == 0) || (a == 1)) /*Tool should Not detect this line as error*/ /*No ERROR:contradict condition*/
+	{
+		b += a;
+	}
+	ret = b;
+        sink = ret;
+}
+
+
+void conflicting_cond_002 ()
+{
+	int a;
+	int b = 0;
+	int ret;
+//------------for reading values
+	char itfbuff2[255]; 
+	fscanf(itf, "%s", itfbuff2);
+	a=atoi(itfbuff2);
+	
+//------------Adding statements for printing-----------
+{fprintf(wtfinfile,"%s","Predicate 2:(!((a < 5) || (10 < a)))\n");
+fprintf(wtfinfile,"%d,%d,%d\n",(a < 5 ),( 10 < a),(!((a < 5) || (10 < a))));}
+//----------------------------------------------------
+	if (!((a < 5) || (10 < a))) /*Tool should Not detect this line as error*/ /*No ERROR:contradict condition*/
+	{
+		b += a;
+	}
+	ret = b;
+        sink = ret;
+}
+
+
+
+
+int main_function(int itffile_num, FILE *wtfinfile)
+{
+//------------------added for the input test file reading
+	char itf1[10]={"input"};
+    char itf2[10];
+    snprintf(itf2,10,"%d",itffile_num);
+    char itf3[10]={".txt"};
+    strcat(itf1,itf2);
+    strcat(itf1,itf3);
+    FILE *itf;
+	itf = fopen(itf1, "r");
+	//**************************************
+        
+//------------for reading values
+	char itfbuff3[255]; 
+	fscanf(itf, "%s", itfbuff3);
+	vflag_copy=atoi(itfbuff3);
+//------------for reading values
+	char itfbuff4[255]; 
+	fscanf(itf, "%s", itfbuff4);
+	vflag_file=atoi(itfbuff4);
+//------------for reading values
+	char itfbuff5[255]; 
+	fscanf(itf, "%s", itfbuff5);
+	vflag=atoi(itfbuff5);
+  
+
+
+
+/* Conflicting Condition */
+//------------Adding statements for printing-----------
+{fprintf(wtfinfile,"%s","Predicate 3:(vflag_file ==5 || vflag_file == 888 )\n");
+fprintf(wtfinfile,"%d,%d,%d\n",(vflag_file ==5 ),( vflag_file == 888 ),(vflag_file ==5 || vflag_file == 888 ));}
+//----------------------------------------------------
+	if (vflag_file ==5 || vflag_file == 888 )
+	{
+//------------Adding statements for printing-----------
+{fprintf(wtfinfile,"%s","Predicate 4:(vflag ==1 || vflag ==888)\n");
+fprintf(wtfinfile,"%d,%d,%d\n",(vflag ==1 ),( vflag ==888),(vflag ==1 || vflag ==888));}
+//----------------------------------------------------
+		if (vflag ==1 || vflag ==888)
+	{
+		conflicting_cond_001();
+	}
+
+//------------Adding statements for printing-----------
+{fprintf(wtfinfile,"%s","Predicate 5:(vflag ==2 || vflag ==888)\n");
+fprintf(wtfinfile,"%d,%d,%d\n",(vflag ==2 ),( vflag ==888),(vflag ==2 || vflag ==888));}
+//----------------------------------------------------
+	if (vflag ==2 || vflag ==888)
+	{
+		conflicting_cond_002();
+	}
+
+
+	}
+	   
+return 0;
+}
+
+int main(){
+	FILE *fptr;
+	int itfnos;
+	int i=0;
+	char filename[100]={".txt"};
+	char completefilename[100];
+	printf("Enter the file name to store the truth table:\n");
+	scanf("%s", completefilename);
+    strcat(completefilename,filename);
+    fptr=fopen(completefilename,"w");
+	printf("Enter the number of test data file:");
+	scanf("%d",&itfnos);
+	for(i=1;i<=itfnos;i++){
+		fprintf(fptr,"%s%d%s","Test Case File Number is:",i,"\n");
+		main_function(i,fptr);
+	}
+	return 0;
+}
