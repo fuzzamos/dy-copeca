@@ -1,0 +1,2 @@
+# dy-copeca
+Dy-COPECA (Dynamic COverage PErcentage CAlculator) is a test case adequacy checker to measure Modified Condition / Decision Coverage (MC/DC) criterion. It is highly based on the test cases generated from KLEE and TRACER-X tools. To run Dy-COPECA, users must have test cases and a C program. It produces MC/DC Extended truth tables for all predicates and test cases. Also, it reports total number of independently affected conditions and total number of simple conditions present in C progam with a socre in percentage. 
